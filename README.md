@@ -8,9 +8,9 @@ Files:
 
 How to use:
 1. Unzip and serve the directory using any static server.
-   Example: `npx http-server . -p 8080` or `python3 -m http.server 8080`
+   Example: `npx serve . -p 8080'
 2. Open http://localhost:8080 in your browser.
-3. Ensure your backend API is running at http://localhost:3000 (or adjust API_BASE in app.js).
+3. Ensure your wallet backend API :-https://github.com/Vanilagaming/WalletManager  is running at http://localhost:3000 
 
 Security notes:
 - This demo stores JWT in localStorage for simplicity. For production, prefer httpOnly secure cookies for tokens.
